@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Book_Hotel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Flat Design Wallpaper iPhone 7 Plus" translatesAutoresizingMaskIntoConstraints="NO" id="chS-VP-17W">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input How many Room To Book" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WGi-sL-KXt">
+                                <rect key="frame" x="38" y="161" width="298" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="298" id="HFd-xZ-enR"/>
+                                    <constraint firstAttribute="height" constant="30" id="Luc-jo-k1g"/>
+                                    <constraint firstAttribute="width" secondItem="WGi-sL-KXt" secondAttribute="height" multiplier="149:15" id="VrX-EF-wRG"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IhQ-Pr-vvA">
+                                <rect key="frame" x="0.0" y="16" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="6BN-Jt-qQT"/>
+                                    <constraint firstAttribute="height" constant="44" id="GwJ-G3-o5i"/>
+                                    <constraint firstAttribute="width" secondItem="IhQ-Pr-vvA" secondAttribute="height" multiplier="375:44" id="dDt-oy-bYG"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Book Hotel Room" id="P4S-6Y-25I"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fX-tp-YXT">
+                                <rect key="frame" x="0.0" y="368" width="375" height="279"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="279" id="2Qs-8l-JPt"/>
+                                    <constraint firstAttribute="width" secondItem="5fX-tp-YXT" secondAttribute="height" multiplier="125:93" id="Wx5-tE-c3R"/>
+                                    <constraint firstAttribute="width" constant="375" id="oh7-jb-NxW"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="25" name="MarkerFelt-Thin"/>
+                                            <font key="NSOriginalFont" size="17" name="MarkerFelt-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Gg-mE-QS9">
+                                <rect key="frame" x="38" y="106" width="298" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="xlA-Bx-muo"/>
+                                    <constraint firstAttribute="width" secondItem="0Gg-mE-QS9" secondAttribute="height" multiplier="149:15" id="yZ8-Id-ASG"/>
+                                    <constraint firstAttribute="width" constant="298" id="yo0-qO-itM"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Koq-TI-tJJ">
+                                <rect key="frame" x="170" y="266" width="34" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4Uz-Xz-pe3"/>
+                                    <constraint firstAttribute="width" constant="34" id="8wf-oN-Ho1"/>
+                                    <constraint firstAttribute="width" secondItem="Koq-TI-tJJ" secondAttribute="height" multiplier="17:15" id="RF8-W2-rv8"/>
+                                </constraints>
+                                <state key="normal" title="Click"/>
+                                <connections>
+                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lF8-Lp-ab8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5fX-tp-YXT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2nT-gm-gBd"/>
+                            <constraint firstItem="5fX-tp-YXT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3XT-8o-cRK"/>
+                            <constraint firstItem="Koq-TI-tJJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="5T8-cT-6BK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5fX-tp-YXT" secondAttribute="bottom" constant="20" id="NQI-nw-SAr"/>
+                            <constraint firstItem="Koq-TI-tJJ" firstAttribute="top" secondItem="WGi-sL-KXt" secondAttribute="bottom" constant="115" id="Ori-df-R8h"/>
+                            <constraint firstItem="IhQ-Pr-vvA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-4" id="P8R-t6-FNb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Gg-mE-QS9" secondAttribute="trailing" constant="39" id="PNf-rE-Wb3"/>
+                            <constraint firstItem="IhQ-Pr-vvA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SSF-1f-EGW"/>
+                            <constraint firstItem="5fX-tp-YXT" firstAttribute="top" secondItem="Koq-TI-tJJ" secondAttribute="bottom" constant="32" id="Uau-Rg-xLk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Koq-TI-tJJ" secondAttribute="trailing" constant="171" id="dDR-wM-CCZ"/>
+                            <constraint firstItem="WGi-sL-KXt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="fDK-vB-tQ9"/>
+                            <constraint firstItem="0Gg-mE-QS9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="icf-Kv-gey"/>
+                            <constraint firstItem="0Gg-mE-QS9" firstAttribute="top" secondItem="IhQ-Pr-vvA" secondAttribute="bottom" constant="46" id="jIF-RW-OFN"/>
+                            <constraint firstItem="WGi-sL-KXt" firstAttribute="top" secondItem="0Gg-mE-QS9" secondAttribute="bottom" constant="25" id="qLO-Rw-Cx7"/>
+                            <constraint firstItem="IhQ-Pr-vvA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tRT-4a-6Ql"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WGi-sL-KXt" secondAttribute="trailing" constant="39" id="vWu-zu-N5g"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="inputName" destination="0Gg-mE-QS9" id="wsD-sg-n5x"/>
+                        <outlet property="inputRoom" destination="WGi-sL-KXt" id="OFx-9e-UZg"/>
+                        <outlet property="lblResult" destination="5fX-tp-YXT" id="bib-yc-w2I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="119.1904047976012"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Flat Design Wallpaper iPhone 7 Plus" width="400" height="711"/>
+    </resources>
+</document>
